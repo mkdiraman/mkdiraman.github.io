@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+    height: 4rem;
+    margin: 0 1.5rem 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.header .logo{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+}
+
+.header .logo {
+    width: 2rem;
+}
+
+.hero {
+    background-color: hsla(0, 2%, 83%, 0.71);
+    height: 40rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.banner{
+    margin: 2rem 1.5rem 2rem 1.5rem;
+    width: 60vw;
+
+}
