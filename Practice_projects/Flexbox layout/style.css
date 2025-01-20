@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: auto;
+}
+
+
+nav {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav p {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+nav p span {
+  font-weight: 600;
+  color: #000;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-color: rgba(173, 173, 173, 0.541);
+  padding: 2rem 1.5rem 2rem 1.5rem;
+}
+
+.header-left {
+  width: 60vw;
+  overflow: hidden;
+  margin-right: 1.5rem;
+}
+
+.header-right {
+  width: 40vw;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  object-fit: contain;
+}
+
+.header-right button {
+    width: 20rem;
+    height: 3rem;
+    margin-top: 2rem;
+    background-color: rgba(46, 46, 46, 0.877);
+    color: white;
+    
+}
+
+
+
+.info {
+  display: flex;
+  height: 700px;
+  padding: 2rem 1.5rem 2rem 1.5rem;
+
+}
+
+.info-left {
+  width: 60vw;
+  overflow: hidden;
+  margin-right: 1.5rem;
+}
+.info-left img{
+    margin-bottom: 2rem;
+   
+}
+.info-right {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
+.info-right-card1{
+    display: flex;
+    
+}
+
+.learning {
+  display: flex;
+  border: 1px solid rgb(0, 255, 255);
+  height: 600px;
+  background-color: #d452cd;
+}
+
+.exhibition {
+  display: flex;
+  border: 1px solid rgb(0, 255, 255);
+  height: 600px;
+  background-color: #525fd4;
+}
+
+
