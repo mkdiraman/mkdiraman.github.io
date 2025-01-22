@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.info-right-card{
+    width: 450px;
+    height: 500px;
+    border: solid red;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    grid-template-areas: "info-img"   "info-detail"
+                         "info-img"   "info-detail"
+                         "info-img"   "info-detail";
+                       
+}
+
+.info-right-card img{
+  width: 120px;
+  height: auto;
+  margin: 1rem;
+}
+
+.info-grey {
+    background-color: rgba(77, 76, 78, 0.705);
+}
+
+
+.info-detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
