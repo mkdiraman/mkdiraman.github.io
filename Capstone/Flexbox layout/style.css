@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito Sans";
+}
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: auto;
+}
+
+nav {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav p {
+  display: flex;
+  align-items: center;
+  color: grey;
+}
+nav p span {
+  font-weight: 600;
+  color: #000;
+}
+
+
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  background-color: rgba(173, 173, 173, 0.541);
+  padding: 2rem 1.5rem 2rem 1.5rem;
+}
+
+.header-left {
+  width: 60vw;
+  overflow: hidden;
+  margin-right: 1.5rem;
+}
+
+.header-right {
+  width: 40vw;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  object-fit: contain;
+}
+
+.header-right button {
+  width: 20rem;
+  height: 3rem;
+  margin-top: 2rem;
+  background-color: rgba(46, 46, 46, 0.877);
+  color: white;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 2rem 1.5rem 2rem 1.5rem;
+}
+
+.info-left {
+  width: 60vw;
+  overflow: hidden;
+  margin-right: 1.5rem;
+}
+.info-left img {
+  margin-bottom: 2rem;
+}
+
+.info-left span {
+  color: rgb(133, 133, 133);
+}
+
+.info-right {
+  width: 40vw;
+  height: 500px;
+   color: rgb(66, 66, 66);;
+}
+.info-right-card {
+  width: 450px;
+  height: 500px;
+  line-height: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  grid-template-rows: 1fr 1fr 1fr;
+
+  grid-template-areas:
+    "info-img" "info-detail"
+    "info-img" "info-detail"
+    "info-img" "info-detail";
+}
+
+.info-right-card img {
+  width: 150px;
+  height: auto;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.info-grey {
+  background-color: rgba(178, 178, 179, 0.705);
+  padding-top: 1.5rem;
+}
+
+.info-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(66, 66, 66);
+}
+.info-right-card a {
+  text-decoration: none;
+  margin-top: 0.5rem;
+  color: rgb(66, 134, 223);
+}
+
+.info-detail h4 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: rgb(66, 66, 66);
+}
+
+.learn-container{
+  width: 1200px;
+  height: auto;
+  padding: 2rem 4.5rem 2rem 4.5rem;
+  overflow: hidden;
+  background-color:gainsboro ;
+}
+.learn-container h4 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 800;
+  color: rgb(66, 66, 66);
+}
+
+.learning{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.learn-card, .learn-card img {
+  max-width:330px;
+  margin-bottom: 1rem;
+  
+}
+
+.learn-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding-bottom:1.5rem ;
+}
+
+.learn-card p, h5 {
+  margin-left: 1rem;
+}
+
+.exhibition{
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0 1.5rem 2rem 1.5rem;
+}
+.ex-header{
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(66, 66, 66);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.info-left video {
+  width: 676px;
+  height: auto;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 2rem 3rem;
+  border-top: 1px solid rgb(87, 87, 87);
+}
+
+footer .f2 a {
+  text-decoration: none;
+  color: grey;
+}

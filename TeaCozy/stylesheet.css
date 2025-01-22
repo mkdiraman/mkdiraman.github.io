@@ -1,0 +1,204 @@
+html,
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-size: cover;
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  
+  
+}
+
+body {
+
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: radial-gradient(circle, #2ecd16c0, #6ed739a2, #96e055b6, #d8ea72b7, hsla(123, 83%, 65%, 0.658)); 
+  background-repeat: no-repeat;
+  
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.grid::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.grid::-webkit-scrollbar {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
+
+.header {
+  padding: .49rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 55rem;
+ 
+  
+}
+.header img {
+  width: 7rem;
+  background-image:linear-gradient(to bottom right, hsl(56, 87%, 64%), rgb(14, 119, 0));
+  border-radius: .5rem;
+  padding: 5px;
+}
+
+
+.nav {
+  display: flex;
+  width: 20rem;
+  justify-content: space-evenly;
+ 
+}
+
+.nav  {
+  list-style-type: none;
+ 
+}
+
+.nav a {
+  border-radius: .5rem;
+  padding: 5px;
+  background-image:linear-gradient(to bottom right, hsl(56, 87%, 64%), rgb(14, 119, 0));
+  text-decoration: none;
+  color: #f7f2f3;
+}
+
+
+.banner {
+  background-image: url(./Assets/img-mission-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 55rem;
+  height: 32em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+.banner h2,h4 {
+  margin:0;
+}
+
+
+
+.bannertext {
+  text-align: center;
+  width: 100%;
+  background-color: #b8d62f;
+opacity: .9;
+  line-height: 2rem;
+  
+}
+
+.main {
+  width: 55rem;
+}
+
+.sec1 img {
+  width: 13.63rem;
+  margin: 0.45rem;
+  border-radius: 10%;
+}
+
+.main h3{
+  margin: 4rem 0 0 0;
+}
+
+.main h4 {
+  margin-top: 0.5rem;
+  font-size: .8rem;
+}
+.item p {
+  margin: 0;
+  font-size: 1rem;
+}
+.sec1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.sec2 {
+  background-image: url(./Assets/img-locations-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 27rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+}
+
+.location p, strong {
+  border: 1px solid black;
+  width: 13.63rem;
+  background-color: black;
+  opacity: 1;
+  margin: 1.8rem;
+  line-height: 3rem;
+  
+}
+
+.location p {
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.sec2 h2 {
+  margin: 4rem 0 0 0;
+
+}
+
+.contact h5 {
+ font-size: 2rem;
+ margin: 1rem;
+ color: #020501c0;
+}
+
+.contact p {
+  font-size: 0.8rem;
+  color: #020501c0;
+}
+
+footer{
+  text-align: start;
+  font-size: 12px;
+  margin: .9rem;
+  color: #020501c0;
+}
+
+@media only screen  and (max-width:1400px){
+
+  .header {
+    width: 700px;
+  }
+.banner{
+  width: 700px;
+}
+
+.main {
+  width: 700px;
+}
+
+.location {
+  zoom: 70%;
+}
+
+}
